@@ -8,6 +8,7 @@ namespace PongService
 {
     public class PongHTTPService
     {
+        
         JsonSerializerOptions options = new JsonSerializerOptions
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase
@@ -42,6 +43,7 @@ namespace PongService
             }
         }
 
+        /// <summary>method <c>ServerListenerAsync</c> Start listening http requests.</summary>
         public async Task ServerListenerAsync()
         {
             while (true)
@@ -51,6 +53,7 @@ namespace PongService
             }
         }
 
+        /// <summary>method <c>ProcessRequest</c>Logic of proccessing http request.</summary>
         private void ProcessRequest(HttpListenerContext context)
         {
             var request = context.Request;
@@ -68,6 +71,7 @@ namespace PongService
             response.Close();
         }
 
+        /// <summary>method <c>ProcessMessage</c> Takes HttpListenerContext, then deserialize json body to appropriate property of type ModuleBase.</summary>
         private void ProcessMessage(HttpListenerContext context)
         {
             using (var streamReader = new StreamReader(context.Request.InputStream))

@@ -8,6 +8,10 @@ namespace PongService.Modules
 {
     public class TangibleModule : ModuleBase
     {
-        public string Message { get; set; }
+        public string Object { get; set; }
+        public int CoordinateX { get; set; }
+        public int CoordinateY { get; set; }
+        public int RotationAngle { get; set; }
+
     }
 }

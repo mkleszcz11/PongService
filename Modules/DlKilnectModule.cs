@@ -8,6 +8,8 @@ namespace PongService.Modules
 {
     public class DlKilnectModule : ModuleBase
     {
-        public string Message { get; set; }
+        public int RacketDirection { get; set; }
+        public int Velocity { get; set; }
+
     }
 }

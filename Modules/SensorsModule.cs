@@ -8,6 +8,8 @@ namespace PongService.Modules
 {
     public class SensorsModule : ModuleBase
     {
-        public string Message { get; set; }
+        public int BallVelocity { get; set; }
+        public string WallColor { get; set; }
+
     }
 }
