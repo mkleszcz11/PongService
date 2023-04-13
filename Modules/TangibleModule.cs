@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PongService.Modules
 {
-    public class TangibleModule
+    public class TangibleModule : ModuleBase
     {
+        public string Message { get; set; }
     }
 }

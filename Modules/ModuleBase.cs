@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace PongService.Modules
 {
-    public class SensorsModule : ModuleBase
+    public class ModuleBase
     {
-        public string Message { get; set; }
+        public int Id { get; set; }
     }
 }

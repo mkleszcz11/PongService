@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PongService
 {
-    public enum DeviceEnum
+    public enum ModuleEnum
     {
         VoiceModule = 1,
         TangibleModule = 2,

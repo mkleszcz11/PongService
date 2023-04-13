@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace PongService.Modules
 {
-    public class VoiceModule
+    public class VoiceModule : ModuleBase
     {
-        public int Id { get; set; }
-
+        public string Message { get; set; }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PongService.Modules
 {
-    public class DlKilnectModule
+    public class DlKilnectModule : ModuleBase
     {
+        public string Message { get; set; }
     }
 }
