@@ -61,7 +61,6 @@ DlKinectModule:
         "velocity": int
     }
     
-To test if communication works fine you need to download .zip, then open Program.cs in any text editor and change the line. Now you need to build it in for example 
-VS code. Program is ready to use after opening .exe file in bin/debug/.
+To test if communication works fine you need to download .zip, then open ConsoleService/Program.cs in any text editor and change the line. Now you need to build it. Program is ready to use after opening .exe file in bin/Debug/net6.0.
 Console.WriteLine(PongHTTPService.GetInstance().[YourOwnModule].[ModuleProperty]);
     ![image](https://user-images.githubusercontent.com/93325616/231897822-74648839-c161-4f96-8f83-b9923c8fde16.png)
