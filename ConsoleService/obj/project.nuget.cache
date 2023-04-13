@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "S25DwqEvKScjGSIsXFUyzx4/FWjeJMXJZIh5G/Bk3HiHwTqeqt97q5AVh21JpEpyG3uQH72b7OjMAm9sl+OzhQ==",
+  "success": true,
+  "projectFilePath": "D:\\CODING\\service\\ConsoleService\\ConsoleService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blaze\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
